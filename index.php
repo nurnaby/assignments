@@ -6,12 +6,15 @@ $subject_D = 90;
 $total_marke = ($subject_A+$subject_B+$subject_C+$subject_D);
 $ava_mark =$total_marke/4;
 
-
-
 echo "<h4>Rista Avarage Marks:" .$ava_mark. "</h4>";
 
 
+// if else condition 
+if ($subject_A > 100 || $subject_B > 100 || $subject_C > 100 || $subject_D > 100  ) {
+     echo "Inter invalid number";
+     echo "<br>";
 
+}
 
 
 
@@ -38,6 +41,8 @@ elseif ($ava_mark >=1 && $ava_mark<=39 ) {
      echo "<br>";
 
 
+
+// switch stetment
 
 
      $bike = "stop";
