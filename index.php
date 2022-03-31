@@ -34,6 +34,34 @@ elseif ($ava_mark >=40 && $ava_mark<=49 ) {
 elseif ($ava_mark >=1 && $ava_mark<=39 ) {
      echo "You got F" ; 
      } 
+
+     echo "<br>";
+
+
+
+
+     $bike = "stop";
+     switch($bike){
+         case "start":
+            echo "your bike takes a start";
+            break;
+          case "stop":
+            echo " your bike takes a stop";
+            break;
+          case "break":
+            echo "your bike takes a break";
+            break;  
+          case "gear":
+            echo "your bike move faster and faster";
+            break;  
+          case "signal":
+            echo "your bike shows a signal light";
+            break;  
+          case "headlight":
+            echo "your bike headight will start";
+            break;  
+
+     }
      
      
 ?>
